@@ -40,7 +40,12 @@
     }
     header .brand-wrap {
       display: flex;
-      align-items: flex-start;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+    header .brand-row {
+      display: flex;
+      align-items: center;
       gap: 0.6rem;
     }
     header .brand-logo {
@@ -200,11 +205,11 @@
   <header>
     <div class="container">
       <div class="brand-wrap">
-        <img class="brand-logo" src="/assets/img/logo/drawing_NoText.svg" alt="OffSecIntel logo" />
-        <div>
+        <div class="brand-row">
+          <img class="brand-logo" src="/assets/img/logo/drawing_NoText.svg" alt="OffSecIntel logo" />
           <div class="brand">Off<span>Sec</span>Intel</div>
-          <div class="page-label">Legal &amp; Privacy</div>
         </div>
+        <div class="page-label">Legal &amp; Privacy</div>
       </div>
     </div>
   </header>
