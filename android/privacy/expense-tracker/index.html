@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy — ExpenseTracker | OffSecIntel</title>
   <meta name="description" content="Privacy Policy for ExpenseTracker Android app by OffSecIntel." />
+  <link rel="icon" href="/assets/img/icon/favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
@@ -36,6 +37,15 @@
       background-color: var(--bg-card);
       border-bottom: 2px solid var(--accent-red);
       padding: 1.25rem 0;
+    }
+    header .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    header .brand-logo {
+      height: 32px;
+      width: auto;
     }
     header .brand {
       font-family: 'Montserrat', sans-serif;
@@ -189,8 +199,13 @@
   <!-- Header -->
   <header>
     <div class="container">
-      <div class="brand">Off<span>Sec</span>Intel</div>
-      <div class="page-label">Legal &amp; Privacy</div>
+      <div class="brand-wrap">
+        <img class="brand-logo" src="/assets/img/logo/drawing_NoText.svg" alt="OffSecIntel logo" />
+        <div>
+          <div class="brand">Off<span>Sec</span>Intel</div>
+          <div class="page-label">Legal &amp; Privacy</div>
+        </div>
+      </div>
     </div>
   </header>
 
