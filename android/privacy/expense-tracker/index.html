@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — ExpenseTracker | OffSecIntel</title>
+  <meta name="description" content="Privacy Policy for ExpenseTracker Android app by OffSecIntel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <style>
+    :root {
+      --bg-primary:   #0f0f0f;
+      --bg-card:      #1b1b1b;
+      --bg-section:   #141414;
+      --accent-red:   #d00000;
+      --accent-green: #4AF626;
+      --text-primary: #e0e0e0;
+      --text-muted:   #888888;
+      --border:       #2a2a2a;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: 'Poppins', 'Montserrat', sans-serif;
+      font-size: 0.95rem;
+      line-height: 1.75;
+    }
+
+    /* ── Header ── */
+    header {
+      background-color: var(--bg-card);
+      border-bottom: 2px solid var(--accent-red);
+      padding: 1.25rem 0;
+    }
+    header .brand {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 0.05em;
+      color: #fff;
+    }
+    header .brand span {
+      color: var(--accent-red);
+    }
+    header .page-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-top: 0.15rem;
+    }
+
+    /* ── Hero ── */
+    .hero {
+      background: linear-gradient(135deg, #1a0000 0%, var(--bg-section) 60%);
+      border-bottom: 1px solid var(--border);
+      padding: 3rem 0 2.5rem;
+    }
+    .hero h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .hero h1 span { color: var(--accent-red); }
+    .hero .meta {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+    .hero .badge-app {
+      display: inline-block;
+      background: var(--accent-red);
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.65rem;
+      border-radius: 3px;
+      margin-right: 0.5rem;
+    }
+
+    /* ── Content card ── */
+    .policy-card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2rem 2.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .policy-card h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--accent-red);
+      letter-spacing: 0.03em;
+      border-left: 3px solid var(--accent-red);
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
+    }
+    .policy-card p { margin-bottom: 0.75rem; }
+    .policy-card p:last-child { margin-bottom: 0; }
+    .policy-card ul {
+      padding-left: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .policy-card ul li { margin-bottom: 0.4rem; }
+    .policy-card ul li:last-child { margin-bottom: 0; }
+
+    /* ── Permission badges ── */
+    .perm-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 0.9rem;
+    }
+    .perm-row:last-child { margin-bottom: 0; }
+    .perm-badge {
+      flex-shrink: 0;
+      font-family: 'Courier New', monospace;
+      font-size: 0.75rem;
+      background: #1f0000;
+      border: 1px solid var(--accent-red);
+      color: #ff6b6b;
+      padding: 0.15rem 0.5rem;
+      border-radius: 3px;
+      white-space: nowrap;
+      margin-top: 0.1rem;
+    }
+    .perm-desc { font-size: 0.9rem; }
+
+    /* ── Third-party table ── */
+    .tp-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    .tp-table th, .tp-table td {
+      padding: 0.6rem 0.8rem;
+      border: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+    .tp-table th {
+      background: #1f1f1f;
+      color: var(--text-muted);
+      font-weight: 500;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+    .tp-table td { background: var(--bg-section); }
+    .tp-table a { color: var(--accent-red); text-decoration: none; }
+    .tp-table a:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      background-color: var(--bg-card);
+      border-top: 1px solid var(--border);
+      padding: 1.75rem 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.82rem;
+    }
+    footer a { color: var(--accent-red); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    footer .divider { margin: 0 0.5rem; opacity: 0.4; }
+
+    /* ── Highlight note ── */
+    .note-box {
+      background: #0a1a00;
+      border-left: 3px solid var(--accent-green);
+      border-radius: 0 4px 4px 0;
+      padding: 0.75rem 1rem;
+      color: #c8f0b0;
+      font-size: 0.88rem;
+      margin-bottom: 0.75rem;
+    }
+    .note-box:last-child { margin-bottom: 0; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="brand">Offs<span>ec</span>Intel</div>
+      <div class="page-label">Legal &amp; Privacy</div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="mb-2">
+        <span class="badge-app">Android</span>
+        <span class="badge-app" style="background:#1b1b1b; border:1px solid #444;">Privacy Policy</span>
+      </div>
+      <h1>ExpenseTracker <span>Privacy Policy</span></h1>
+      <p class="meta">
+        Effective Date: 19 March 2026 &nbsp;·&nbsp;
+        Developer: OffSecIntel &nbsp;·&nbsp;
+        Platform: Android
+      </p>
+    </div>
+  </section>
+
+  <!-- Body -->
+  <main class="container py-4" style="max-width: 860px;">
+
+    <!-- 1. Introduction -->
+    <div class="policy-card">
+      <h2>1. Introduction</h2>
+      <p>
+        ExpenseTracker ("the App") is an Android application developed by <strong>OffSecIntel</strong>, a proprietorship.
+        The App helps you log and categorise personal financial transactions, track budgets, and sync your data to your own Google Drive spreadsheet.
+      </p>
+      <p>
+        This Privacy Policy describes what information the App collects, how it is used, and the choices you have.
+        By using the App you agree to the practices described here.
+      </p>
+    </div>
+
+    <!-- 2. Data We Collect -->
+    <div class="policy-card">
+      <h2>2. Data We Collect</h2>
+      <ul>
+        <li>
+          <strong>Google account email address</strong> — collected during Google Sign-In solely to identify your Google Drive and Sheets resources.
+          No other Google profile data is accessed.
+        </li>
+        <li>
+          <strong>Google Drive / Sheets access</strong> — the App requests write access to create and update a Google Spreadsheet ("Updo Expenses") in your Drive.
+          This spreadsheet is owned by you; OffSecIntel has no access to it.
+        </li>
+        <li>
+          <strong>Incoming SMS messages (on-device only)</strong> — the App listens for incoming SMS to detect banking and UPI transaction notifications.
+          SMS content is parsed in real-time on your device and is <em>never</em> transmitted off-device, stored in any OffSecIntel server, or logged anywhere outside the App.
+        </li>
+        <li>
+          <strong>Transaction data you enter</strong> — amounts, categories, payment methods, dates, and remarks.
+          This data is stored locally on your device (encrypted Hive database) and optionally synced to your own Google Spreadsheet.
+        </li>
+      </ul>
+    </div>
+
+    <!-- 3. Data We Do NOT Collect -->
+    <div class="policy-card">
+      <h2>3. Data We Do NOT Collect</h2>
+      <div class="note-box">The App contains no analytics SDKs, no advertising frameworks, and no crash-reporting services.</div>
+      <ul>
+        <li>No SMS content is ever transmitted off your device.</li>
+        <li>No full bank account numbers, card numbers, CVV codes, or PINs are collected or stored.</li>
+        <li>No location data is collected.</li>
+        <li>No device identifiers (IMEI, advertising ID) are collected.</li>
+        <li>No data is sent to any OffSecIntel server — the only external endpoint is the Google APIs you authenticate with directly.</li>
+        <li>No data is shared with third parties for advertising or profiling purposes.</li>
+      </ul>
+    </div>
+
+    <!-- 4. How Data Is Used -->
+    <div class="policy-card">
+      <h2>4. How Data Is Used</h2>
+      <ul>
+        <li>
+          <strong>Google account email</strong> — used to authenticate with Google OAuth 2.0 and to identify the correct Google Drive for sync.
+          Never used for marketing or shared with any third party.
+        </li>
+        <li>
+          <strong>Google Drive sync</strong> — your transaction records are written to a spreadsheet in <em>your</em> Google Drive.
+          OffSecIntel has no access to this spreadsheet.
+        </li>
+        <li>
+          <strong>SMS parsing</strong> — incoming messages from known bank/UPI senders are parsed on-device to extract transaction amounts and merchants.
+          Parsed data pre-fills the expense entry form for your review; you confirm or discard each suggested entry.
+          No raw SMS text leaves your device.
+        </li>
+      </ul>
+    </div>
+
+    <!-- 5. Data Storage & Security -->
+    <div class="policy-card">
+      <h2>5. Data Storage &amp; Security</h2>
+      <ul>
+        <li>
+          <strong>Local storage</strong> — all transaction data is stored on your device using Hive, an encrypted key-value database.
+          Data is protected by Android's app sandboxing; other apps cannot access it.
+        </li>
+        <li>
+          <strong>Cloud storage</strong> — synced data resides in your own Google Drive spreadsheet, governed by Google's security and privacy controls.
+          OffSecIntel does not operate or access any cloud server containing your data.
+        </li>
+        <li>
+          <strong>OAuth tokens</strong> — Google access and refresh tokens are stored securely by the Google Sign-In SDK on your device and are never transmitted to OffSecIntel.
+        </li>
+      </ul>
+    </div>
+
+    <!-- 6. Permissions Explained -->
+    <div class="policy-card">
+      <h2>6. Permissions Explained</h2>
+
+      <div class="perm-row">
+        <span class="perm-badge">INTERNET</span>
+        <span class="perm-desc">Required for Google Sign-In and to sync your expense data with Google Drive via the Google Sheets API. No other network calls are made.</span>
+      </div>
+
+      <div class="perm-row">
+        <span class="perm-badge">RECEIVE_SMS</span>
+        <span class="perm-desc">
+          Allows the App to be notified of incoming SMS messages in real-time for automatic transaction detection.
+          <strong>READ_SMS is intentionally NOT requested</strong> — the App cannot access your SMS inbox or historical messages; it only receives new messages as they arrive.
+          This permission is Play Store policy compliant.
+        </span>
+      </div>
+    </div>
+
+    <!-- 7. Third-Party Services -->
+    <div class="policy-card">
+      <h2>7. Third-Party Services</h2>
+      <p>The App integrates only with Google services, which you authenticate with directly:</p>
+      <table class="tp-table">
+        <thead>
+          <tr>
+            <th>Service</th>
+            <th>Purpose</th>
+            <th>Privacy Policy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Google Sign-In</td>
+            <td>Authentication; obtaining OAuth token for Drive access</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+          </tr>
+          <tr>
+            <td>Google Drive / Sheets API</td>
+            <td>Storing your expense data in your own spreadsheet</td>
+            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:0.9rem; color: var(--text-muted); font-size: 0.85rem;">
+        No other third-party SDKs (analytics, advertising, crash reporting) are included in the App.
+      </p>
+    </div>
+
+    <!-- 8. Data Deletion -->
+    <div class="policy-card">
+      <h2>8. Data Deletion</h2>
+      <ul>
+        <li>
+          <strong>Uninstalling the App</strong> removes all locally stored data (transactions, settings, cached tokens) from your device.
+        </li>
+        <li>
+          <strong>Google Drive data</strong> — your expense spreadsheet remains in your Google Drive after uninstallation.
+          You can delete it at any time from <a href="https://drive.google.com" target="_blank" rel="noopener" style="color:var(--accent-red);">drive.google.com</a>.
+        </li>
+        <li>
+          <strong>Google account access</strong> — you can revoke the App's OAuth permissions at any time from
+          <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener" style="color:var(--accent-red);">myaccount.google.com/permissions</a>.
+        </li>
+      </ul>
+    </div>
+
+    <!-- 9. Children's Privacy -->
+    <div class="policy-card">
+      <h2>9. Children's Privacy</h2>
+      <p>
+        The App is not directed at children under the age of 13.
+        We do not knowingly collect personal information from children.
+        If you believe a child has provided personal information through the App, please contact us so we can take appropriate action.
+      </p>
+    </div>
+
+    <!-- 10. Changes to This Policy -->
+    <div class="policy-card">
+      <h2>10. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time to reflect changes in the App or applicable law.
+        When we do, we will update the <strong>Effective Date</strong> at the top of this page.
+        We encourage you to review this page periodically.
+        Continued use of the App after changes are posted constitutes acceptance of the updated policy.
+      </p>
+    </div>
+
+    <!-- 11. Contact -->
+    <div class="policy-card">
+      <h2>11. Contact Us</h2>
+      <p>
+        If you have any questions, concerns, or requests regarding this Privacy Policy or the App's data practices, please contact:
+      </p>
+      <ul>
+        <li><strong>Business:</strong> OffSecIntel</li>
+        <li><strong>Email:</strong> <a href="mailto:privacy@offsecintel.org" style="color:var(--accent-red);">privacy@offsecintel.org</a></li>
+        <li><strong>Website:</strong> <a href="https://offsecintel.org" target="_blank" rel="noopener" style="color:var(--accent-red);">offsecintel.org</a></li>
+      </ul>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        &copy; 2026 OffSecIntel. All rights reserved.
+        <span class="divider">|</span>
+        <a href="https://offsecintel.org">offsecintel.org</a>
+        <span class="divider">|</span>
+        ExpenseTracker &mdash; Android App
+      </p>
+      <p style="margin-top:0.4rem;">
+        This page: <code style="font-size:0.78rem; color:#aaa;">app.offsecintel.org/android/privacy/expense-tracker</code>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
