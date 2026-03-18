@@ -1,5 +1,6 @@
 {
-  "version": 2,
+  "version": 1,
+  "semver": "0.2.0",
   "updated": "2026-03-19",
-  "summary": "Added Google AdMob advertising disclosure."
+  "summary": "Initial privacy policy — covers Google Drive sync, on-device SMS parsing, and Google AdMob advertising."
 }
